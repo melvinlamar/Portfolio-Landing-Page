@@ -1,0 +1,119 @@
+.body {
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: white;
+}
+.nav {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    border: 300px;
+    width: 600px;
+
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+.nav a:hover {
+        background-color: #555;
+        color: white;
+        padding: 10px 24px;
+        border: 200px
+}
+.nav a {
+    border: 100px;
+}
+li {
+    display: inline;
+    border: 0px;
+    padding: 10px;
+}
+li a:hover {
+    background-color: #111;
+    padding: 0
+
+}
+li a{
+    display: inline;
+color: white;
+text-align: center;
+padding: 0;
+}
+
+
+#about{
+    padding:5%;
+    padding:left;
+    font-size: 22px;
+}
+#home{
+    padding: 5%;
+    width:auto;
+    padding-bottom: 10%;
+    font-size:28px;
+
+}
+#Experience{
+    padding: 5%;
+    font-size:28px;
+    padding-bottom:10%;
+    }
+#contacts{
+    padding:5%;
+    font-size:28px;
+    
+}
+#about table
+{
+    width: 75%;
+}
+.frm
+{
+    
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[name=message]{
+    width: 100%;
+    padding: 30px 2px;
+
+  }
+  .footer {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: relative;
+
+}
+@media screen and(min-width: 480px){
+    
+}
